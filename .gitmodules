@@ -1,0 +1,3 @@
+[submodule "PPYProject"]
+	path = PPYProject
+	url = https://github.com/arzukk/PPYProject.git
