@@ -1,0 +1,184 @@
+helloList of all trainsets:
+Railroad Cars:
+BasicRrFreightCar(id=3, netWeight=0.0, grossWeight=100.0, source=steel, basicFreightType=REFRIGERATOR_RR_CAR, shipper=null, securityInformation=null)
+BasicRrFreightCar(id=4, netWeight=0.0, grossWeight=200.0, source=metal, basicFreightType=LIQUID_RR_CAR, shipper=null, securityInformation=null)
+Trainset: Trainset(id=8, random=null, startTime=0, lock=java.util.concurrent.locks.ReentrantLock@1431ff4c[Unlocked], startStation=Station S1, destinationStation=Station Z3, currentPosition=0.0, locomotive=Locomotive(id=8, electricityGrid=[BasicRrFreightCar(id=3, netWeight=0.0, grossWeight=100.0, source=steel, basicFreightType=REFRIGERATOR_RR_CAR, shipper=null, securityInformation=null), BasicRrFreightCar(id=4, netWeight=0.0, grossWeight=200.0, source=metal, basicFreightType=LIQUID_RR_CAR, shipper=null, securityInformation=null)], electricityGridCapacity=30, maxRailroadCar=0, loadWeight=500.0, source=metal, speed=100.0, name=LOC8, homeRs=Station S1, destinationRs=Station Z3, weight=300.0), maxRailroadCarsNumber=22, maxRailroadCarsWeight=300.0, railwayRoute=null)
+Locomotive: Locomotive(id=8, electricityGrid=[BasicRrFreightCar(id=3, netWeight=0.0, grossWeight=100.0, source=steel, basicFreightType=REFRIGERATOR_RR_CAR, shipper=null, securityInformation=null), BasicRrFreightCar(id=4, netWeight=0.0, grossWeight=200.0, source=metal, basicFreightType=LIQUID_RR_CAR, shipper=null, securityInformation=null)], electricityGridCapacity=30, maxRailroadCar=0, loadWeight=500.0, source=metal, speed=100.0, name=LOC8, homeRs=Station S1, destinationRs=Station Z3, weight=300.0)
+Total weight: 300.0
+Route length: 10490.0
+
+Railroad Cars:
+BasicRrFreightCar(id=3, netWeight=0.0, grossWeight=100.0, source=steel, basicFreightType=REFRIGERATOR_RR_CAR, shipper=null, securityInformation=null)
+PassengerRailroadCar(id=1, netWeight=0.0, grossWeight=120.0, numOfPeople=2, shipper=null, securityInformation=null)
+Trainset: Trainset(id=3, random=null, startTime=0, lock=java.util.concurrent.locks.ReentrantLock@552d5c55[Unlocked], startStation=Station U2, destinationStation=Station L1, currentPosition=0.0, locomotive=Locomotive(id=3, electricityGrid=[PassengerRailroadCar(id=1, netWeight=0.0, grossWeight=120.0, numOfPeople=2, shipper=null, securityInformation=null), BasicRrFreightCar(id=3, netWeight=0.0, grossWeight=100.0, source=steel, basicFreightType=REFRIGERATOR_RR_CAR, shipper=null, securityInformation=null)], electricityGridCapacity=7, maxRailroadCar=0, loadWeight=300.0, source=metal, speed=20.0, name=LOC3, homeRs=Station U2, destinationRs=Station L1, weight=220.0), maxRailroadCarsNumber=30, maxRailroadCarsWeight=500.0, railwayRoute=null)
+Locomotive: Locomotive(id=3, electricityGrid=[PassengerRailroadCar(id=1, netWeight=0.0, grossWeight=120.0, numOfPeople=2, shipper=null, securityInformation=null), BasicRrFreightCar(id=3, netWeight=0.0, grossWeight=100.0, source=steel, basicFreightType=REFRIGERATOR_RR_CAR, shipper=null, securityInformation=null)], electricityGridCapacity=7, maxRailroadCar=0, loadWeight=300.0, source=metal, speed=20.0, name=LOC3, homeRs=Station U2, destinationRs=Station L1, weight=220.0)
+Total weight: 220.0
+Route length: 9240.0
+
+Railroad Cars:
+BasicRrFreightCar(id=1, netWeight=0.0, grossWeight=50.0, source=metal, basicFreightType=LIQUID_RR_CAR, shipper=null, securityInformation=null)
+HeavyRrFreightCar(id=1, netWeight=0.0, grossWeight=70.5, source=metal, heavyFreightType=TOXIC_RR_CAR, shipper=null, securityInformation=null)
+Trainset: Trainset(id=14, random=null, startTime=0, lock=java.util.concurrent.locks.ReentrantLock@2ae51bf2[Unlocked], startStation=Station V1, destinationStation=Station Q3, currentPosition=0.0, locomotive=Locomotive(id=14, electricityGrid=[BasicRrFreightCar(id=1, netWeight=0.0, grossWeight=50.0, source=metal, basicFreightType=LIQUID_RR_CAR, shipper=null, securityInformation=null), HeavyRrFreightCar(id=1, netWeight=0.0, grossWeight=70.5, source=metal, heavyFreightType=TOXIC_RR_CAR, shipper=null, securityInformation=null)], electricityGridCapacity=5, maxRailroadCar=0, loadWeight=600.0, source=metal, speed=70.0, name=LOC14, homeRs=Station V1, destinationRs=Station Q3, weight=120.5), maxRailroadCarsNumber=21, maxRailroadCarsWeight=1300.0, railwayRoute=null)
+Locomotive: Locomotive(id=14, electricityGrid=[BasicRrFreightCar(id=1, netWeight=0.0, grossWeight=50.0, source=metal, basicFreightType=LIQUID_RR_CAR, shipper=null, securityInformation=null), HeavyRrFreightCar(id=1, netWeight=0.0, grossWeight=70.5, source=metal, heavyFreightType=TOXIC_RR_CAR, shipper=null, securityInformation=null)], electricityGridCapacity=5, maxRailroadCar=0, loadWeight=600.0, source=metal, speed=70.0, name=LOC14, homeRs=Station V1, destinationRs=Station Q3, weight=120.5)
+Total weight: 120.5
+Route length: 8490.0
+
+Railroad Cars:
+BasicRrFreightCar(id=1, netWeight=0.0, grossWeight=50.0, source=metal, basicFreightType=LIQUID_RR_CAR, shipper=null, securityInformation=null)
+Trainset: Trainset(id=9, random=null, startTime=0, lock=java.util.concurrent.locks.ReentrantLock@2f724115[Unlocked], startStation=Station V2, destinationStation=Station Y1, currentPosition=0.0, locomotive=Locomotive(id=9, electricityGrid=[BasicRrFreightCar(id=1, netWeight=0.0, grossWeight=50.0, source=metal, basicFreightType=LIQUID_RR_CAR, shipper=null, securityInformation=null)], electricityGridCapacity=5, maxRailroadCar=0, loadWeight=200.0, source=metal, speed=100.0, name=LOC9, homeRs=Station V2, destinationRs=Station Y1, weight=50.0), maxRailroadCarsNumber=23, maxRailroadCarsWeight=200.0, railwayRoute=null)
+Locomotive: Locomotive(id=9, electricityGrid=[BasicRrFreightCar(id=1, netWeight=0.0, grossWeight=50.0, source=metal, basicFreightType=LIQUID_RR_CAR, shipper=null, securityInformation=null)], electricityGridCapacity=5, maxRailroadCar=0, loadWeight=200.0, source=metal, speed=100.0, name=LOC9, homeRs=Station V2, destinationRs=Station Y1, weight=50.0)
+Total weight: 50.0
+Route length: 8490.0
+
+Railroad Cars:
+PassengerRailroadCar(id=1, netWeight=0.0, grossWeight=120.0, numOfPeople=2, shipper=null, securityInformation=null)
+Trainset: Trainset(id=25, random=null, startTime=0, lock=java.util.concurrent.locks.ReentrantLock@1595250f[Unlocked], startStation=Station V1, destinationStation=Station X2, currentPosition=0.0, locomotive=Locomotive(id=25, electricityGrid=[PassengerRailroadCar(id=1, netWeight=0.0, grossWeight=120.0, numOfPeople=2, shipper=null, securityInformation=null)], electricityGridCapacity=10, maxRailroadCar=0, loadWeight=400.0, source=metal, speed=30.0, name=LOC25, homeRs=Station V1, destinationRs=Station X2, weight=120.0), maxRailroadCarsNumber=23, maxRailroadCarsWeight=200.0, railwayRoute=null)
+Locomotive: Locomotive(id=25, electricityGrid=[PassengerRailroadCar(id=1, netWeight=0.0, grossWeight=120.0, numOfPeople=2, shipper=null, securityInformation=null)], electricityGridCapacity=10, maxRailroadCar=0, loadWeight=400.0, source=metal, speed=30.0, name=LOC25, homeRs=Station V1, destinationRs=Station X2, weight=120.0)
+Total weight: 120.0
+Route length: 8490.0
+
+Railroad Cars:
+Trainset: Trainset(id=1, random=null, startTime=0, lock=java.util.concurrent.locks.ReentrantLock@fc306ca[Unlocked], startStation=Station A, destinationStation=Station C2, currentPosition=0.0, locomotive=Locomotive(id=1, electricityGrid=[], electricityGridCapacity=30, maxRailroadCar=0, loadWeight=500.0, source=metal, speed=100.0, name=locomotive1, homeRs=Station A, destinationRs=Station C2, weight=0.0), maxRailroadCarsNumber=20, maxRailroadCarsWeight=300.0, railwayRoute=null)
+Locomotive: Locomotive(id=1, electricityGrid=[], electricityGridCapacity=30, maxRailroadCar=0, loadWeight=500.0, source=metal, speed=100.0, name=locomotive1, homeRs=Station A, destinationRs=Station C2, weight=0.0)
+Total weight: 0.0
+Route length: 1800.0
+
+Railroad Cars:
+BasicRrFreightCar(id=1, netWeight=0.0, grossWeight=50.0, source=metal, basicFreightType=LIQUID_RR_CAR, shipper=null, securityInformation=null)
+Trainset: Trainset(id=20, random=null, startTime=0, lock=java.util.concurrent.locks.ReentrantLock@2779421[Unlocked], startStation=Station X2, destinationStation=Station T3, currentPosition=0.0, locomotive=Locomotive(id=20, electricityGrid=[BasicRrFreightCar(id=1, netWeight=0.0, grossWeight=50.0, source=metal, basicFreightType=LIQUID_RR_CAR, shipper=null, securityInformation=null)], electricityGridCapacity=5, maxRailroadCar=0, loadWeight=220.0, source=metal, speed=100.0, name=LOC20, homeRs=Station X2, destinationRs=Station T3, weight=50.0), maxRailroadCarsNumber=11, maxRailroadCarsWeight=100.0, railwayRoute=null)
+Locomotive: Locomotive(id=20, electricityGrid=[BasicRrFreightCar(id=1, netWeight=0.0, grossWeight=50.0, source=metal, basicFreightType=LIQUID_RR_CAR, shipper=null, securityInformation=null)], electricityGridCapacity=5, maxRailroadCar=0, loadWeight=220.0, source=metal, speed=100.0, name=LOC20, homeRs=Station X2, destinationRs=Station T3, weight=50.0)
+Total weight: 50.0
+Route length: 6040.0
+
+Railroad Cars:
+HeavyRrFreightCar(id=1, netWeight=0.0, grossWeight=70.5, source=metal, heavyFreightType=TOXIC_RR_CAR, shipper=null, securityInformation=null)
+Trainset: Trainset(id=10, random=null, startTime=0, lock=java.util.concurrent.locks.ReentrantLock@3d88a11c[Unlocked], startStation=Station B3, destinationStation=Station W3, currentPosition=0.0, locomotive=Locomotive(id=10, electricityGrid=[HeavyRrFreightCar(id=1, netWeight=0.0, grossWeight=70.5, source=metal, heavyFreightType=TOXIC_RR_CAR, shipper=null, securityInformation=null)], electricityGridCapacity=7, maxRailroadCar=0, loadWeight=300.0, source=metal, speed=20.0, name=LOC10, homeRs=Station B3, destinationRs=Station W3, weight=70.5), maxRailroadCarsNumber=24, maxRailroadCarsWeight=500.0, railwayRoute=null)
+Locomotive: Locomotive(id=10, electricityGrid=[HeavyRrFreightCar(id=1, netWeight=0.0, grossWeight=70.5, source=metal, heavyFreightType=TOXIC_RR_CAR, shipper=null, securityInformation=null)], electricityGridCapacity=7, maxRailroadCar=0, loadWeight=300.0, source=metal, speed=20.0, name=LOC10, homeRs=Station B3, destinationRs=Station W3, weight=70.5)
+Total weight: 70.5
+Route length: 4820.0
+
+Railroad Cars:
+BasicRrFreightCar(id=3, netWeight=0.0, grossWeight=100.0, source=steel, basicFreightType=REFRIGERATOR_RR_CAR, shipper=null, securityInformation=null)
+Trainset: Trainset(id=2, random=null, startTime=0, lock=java.util.concurrent.locks.ReentrantLock@3fb01793[Unlocked], startStation=Station B2, destinationStation=Station T3, currentPosition=0.0, locomotive=Locomotive(id=2, electricityGrid=[BasicRrFreightCar(id=3, netWeight=0.0, grossWeight=100.0, source=steel, basicFreightType=REFRIGERATOR_RR_CAR, shipper=null, securityInformation=null)], electricityGridCapacity=5, maxRailroadCar=0, loadWeight=200.0, source=metal, speed=100.0, name=loc2, homeRs=Station B2, destinationRs=Station T3, weight=100.0), maxRailroadCarsNumber=30, maxRailroadCarsWeight=600.0, railwayRoute=null)
+Locomotive: Locomotive(id=2, electricityGrid=[BasicRrFreightCar(id=3, netWeight=0.0, grossWeight=100.0, source=steel, basicFreightType=REFRIGERATOR_RR_CAR, shipper=null, securityInformation=null)], electricityGridCapacity=5, maxRailroadCar=0, loadWeight=200.0, source=metal, speed=100.0, name=loc2, homeRs=Station B2, destinationRs=Station T3, weight=100.0)
+Total weight: 100.0
+Route length: 4820.0
+
+Railroad Cars:
+BasicRrFreightCar(id=4, netWeight=0.0, grossWeight=200.0, source=metal, basicFreightType=LIQUID_RR_CAR, shipper=null, securityInformation=null)
+Trainset: Trainset(id=19, random=null, startTime=0, lock=java.util.concurrent.locks.ReentrantLock@528883[Unlocked], startStation=Station C3, destinationStation=Station B3, currentPosition=0.0, locomotive=Locomotive(id=19, electricityGrid=[BasicRrFreightCar(id=4, netWeight=0.0, grossWeight=200.0, source=metal, basicFreightType=LIQUID_RR_CAR, shipper=null, securityInformation=null)], electricityGridCapacity=20, maxRailroadCar=0, loadWeight=500.0, source=steel, speed=200.0, name=LOC19, homeRs=Station C3, destinationRs=Station B3, weight=200.0), maxRailroadCarsNumber=15, maxRailroadCarsWeight=300.0, railwayRoute=null)
+Locomotive: Locomotive(id=19, electricityGrid=[BasicRrFreightCar(id=4, netWeight=0.0, grossWeight=200.0, source=metal, basicFreightType=LIQUID_RR_CAR, shipper=null, securityInformation=null)], electricityGridCapacity=20, maxRailroadCar=0, loadWeight=500.0, source=steel, speed=200.0, name=LOC19, homeRs=Station C3, destinationRs=Station B3, weight=200.0)
+Total weight: 200.0
+Route length: 4770.0
+
+Railroad Cars:
+BasicRrFreightCar(id=3, netWeight=0.0, grossWeight=100.0, source=steel, basicFreightType=REFRIGERATOR_RR_CAR, shipper=null, securityInformation=null)
+Trainset: Trainset(id=18, random=null, startTime=0, lock=java.util.concurrent.locks.ReentrantLock@3fe10c63[Unlocked], startStation=Station C2, destinationStation=Station B3, currentPosition=0.0, locomotive=Locomotive(id=18, electricityGrid=[BasicRrFreightCar(id=3, netWeight=0.0, grossWeight=100.0, source=steel, basicFreightType=REFRIGERATOR_RR_CAR, shipper=null, securityInformation=null)], electricityGridCapacity=10, maxRailroadCar=0, loadWeight=400.0, source=metal, speed=30.0, name=LOC18, homeRs=Station C2, destinationRs=Station B3, weight=100.0), maxRailroadCarsNumber=14, maxRailroadCarsWeight=200.0, railwayRoute=null)
+Locomotive: Locomotive(id=18, electricityGrid=[BasicRrFreightCar(id=3, netWeight=0.0, grossWeight=100.0, source=steel, basicFreightType=REFRIGERATOR_RR_CAR, shipper=null, securityInformation=null)], electricityGridCapacity=10, maxRailroadCar=0, loadWeight=400.0, source=metal, speed=30.0, name=LOC18, homeRs=Station C2, destinationRs=Station B3, weight=100.0)
+Total weight: 100.0
+Route length: 4770.0
+
+Railroad Cars:
+HeavyRrFreightCar(id=1, netWeight=0.0, grossWeight=70.5, source=metal, heavyFreightType=TOXIC_RR_CAR, shipper=null, securityInformation=null)
+Trainset: Trainset(id=5, random=null, startTime=0, lock=java.util.concurrent.locks.ReentrantLock@78aa59d4[Unlocked], startStation=Station J2, destinationStation=Station N1, currentPosition=0.0, locomotive=Locomotive(id=5, electricityGrid=[HeavyRrFreightCar(id=1, netWeight=0.0, grossWeight=70.5, source=metal, heavyFreightType=TOXIC_RR_CAR, shipper=null, securityInformation=null)], electricityGridCapacity=20, maxRailroadCar=0, loadWeight=500.0, source=steel, speed=200.0, name=LOC5, homeRs=Station J2, destinationRs=Station N1, weight=70.5), maxRailroadCarsNumber=50, maxRailroadCarsWeight=400.0, railwayRoute=null)
+Locomotive: Locomotive(id=5, electricityGrid=[HeavyRrFreightCar(id=1, netWeight=0.0, grossWeight=70.5, source=metal, heavyFreightType=TOXIC_RR_CAR, shipper=null, securityInformation=null)], electricityGridCapacity=20, maxRailroadCar=0, loadWeight=500.0, source=steel, speed=200.0, name=LOC5, homeRs=Station J2, destinationRs=Station N1, weight=70.5)
+Total weight: 70.5
+Route length: 2570.0
+
+Railroad Cars:
+HeavyRrFreightCar(id=1, netWeight=0.0, grossWeight=70.5, source=metal, heavyFreightType=TOXIC_RR_CAR, shipper=null, securityInformation=null)
+PassengerRailroadCar(id=1, netWeight=0.0, grossWeight=120.0, numOfPeople=2, shipper=null, securityInformation=null)
+Trainset: Trainset(id=21, random=null, startTime=0, lock=java.util.concurrent.locks.ReentrantLock@77007520[Unlocked], startStation=Station L, destinationStation=Station Q1, currentPosition=0.0, locomotive=Locomotive(id=21, electricityGrid=[HeavyRrFreightCar(id=1, netWeight=0.0, grossWeight=70.5, source=metal, heavyFreightType=TOXIC_RR_CAR, shipper=null, securityInformation=null), PassengerRailroadCar(id=1, netWeight=0.0, grossWeight=120.0, numOfPeople=2, shipper=null, securityInformation=null)], electricityGridCapacity=5, maxRailroadCar=0, loadWeight=600.0, source=metal, speed=70.0, name=LOC21, homeRs=Station L, destinationRs=Station Q1, weight=190.5), maxRailroadCarsNumber=10, maxRailroadCarsWeight=600.0, railwayRoute=null)
+Locomotive: Locomotive(id=21, electricityGrid=[HeavyRrFreightCar(id=1, netWeight=0.0, grossWeight=70.5, source=metal, heavyFreightType=TOXIC_RR_CAR, shipper=null, securityInformation=null), PassengerRailroadCar(id=1, netWeight=0.0, grossWeight=120.0, numOfPeople=2, shipper=null, securityInformation=null)], electricityGridCapacity=5, maxRailroadCar=0, loadWeight=600.0, source=metal, speed=70.0, name=LOC21, homeRs=Station L, destinationRs=Station Q1, weight=190.5)
+Total weight: 190.5
+Route length: 6070.0
+
+Railroad Cars:
+HeavyRrFreightCar(id=1, netWeight=0.0, grossWeight=70.5, source=metal, heavyFreightType=TOXIC_RR_CAR, shipper=null, securityInformation=null)
+Trainset: Trainset(id=11, random=null, startTime=0, lock=java.util.concurrent.locks.ReentrantLock@46a468c[Unlocked], startStation=Station L, destinationStation=Station B, currentPosition=0.0, locomotive=Locomotive(id=11, electricityGrid=[HeavyRrFreightCar(id=1, netWeight=0.0, grossWeight=70.5, source=metal, heavyFreightType=TOXIC_RR_CAR, shipper=null, securityInformation=null)], electricityGridCapacity=10, maxRailroadCar=0, loadWeight=400.0, source=metal, speed=30.0, name=LOC11, homeRs=Station L, destinationRs=Station B, weight=70.5), maxRailroadCarsNumber=25, maxRailroadCarsWeight=1400.0, railwayRoute=null)
+Locomotive: Locomotive(id=11, electricityGrid=[HeavyRrFreightCar(id=1, netWeight=0.0, grossWeight=70.5, source=metal, heavyFreightType=TOXIC_RR_CAR, shipper=null, securityInformation=null)], electricityGridCapacity=10, maxRailroadCar=0, loadWeight=400.0, source=metal, speed=30.0, name=LOC11, homeRs=Station L, destinationRs=Station B, weight=70.5)
+Total weight: 70.5
+Route length: 6070.0
+
+Railroad Cars:
+PassengerRailroadCar(id=1, netWeight=0.0, grossWeight=120.0, numOfPeople=2, shipper=null, securityInformation=null)
+Trainset: Trainset(id=7, random=null, startTime=0, lock=java.util.concurrent.locks.ReentrantLock@10946ff[Unlocked], startStation=Station C1, destinationStation=Station X, currentPosition=0.0, locomotive=Locomotive(id=7, electricityGrid=[PassengerRailroadCar(id=1, netWeight=0.0, grossWeight=120.0, numOfPeople=2, shipper=null, securityInformation=null)], electricityGridCapacity=5, maxRailroadCar=0, loadWeight=600.0, source=metal, speed=70.0, name=LOC7, homeRs=Station C1, destinationRs=Station X, weight=120.0), maxRailroadCarsNumber=21, maxRailroadCarsWeight=400.0, railwayRoute=null)
+Locomotive: Locomotive(id=7, electricityGrid=[PassengerRailroadCar(id=1, netWeight=0.0, grossWeight=120.0, numOfPeople=2, shipper=null, securityInformation=null)], electricityGridCapacity=5, maxRailroadCar=0, loadWeight=600.0, source=metal, speed=70.0, name=LOC7, homeRs=Station C1, destinationRs=Station X, weight=120.0)
+Total weight: 120.0
+Route length: 4770.0
+
+Railroad Cars:
+BasicRrFreightCar(id=3, netWeight=0.0, grossWeight=100.0, source=steel, basicFreightType=REFRIGERATOR_RR_CAR, shipper=null, securityInformation=null)
+PassengerRailroadCar(id=1, netWeight=0.0, grossWeight=120.0, numOfPeople=2, shipper=null, securityInformation=null)
+Trainset: Trainset(id=13, random=null, startTime=0, lock=java.util.concurrent.locks.ReentrantLock@1068d012[Unlocked], startStation=Station H1, destinationStation=Station X3, currentPosition=0.0, locomotive=Locomotive(id=13, electricityGrid=[PassengerRailroadCar(id=1, netWeight=0.0, grossWeight=120.0, numOfPeople=2, shipper=null, securityInformation=null), BasicRrFreightCar(id=3, netWeight=0.0, grossWeight=100.0, source=steel, basicFreightType=REFRIGERATOR_RR_CAR, shipper=null, securityInformation=null)], electricityGridCapacity=5, maxRailroadCar=0, loadWeight=220.0, source=metal, speed=100.0, name=LOC13, homeRs=Station H1, destinationRs=Station X3, weight=220.0), maxRailroadCarsNumber=26, maxRailroadCarsWeight=1000.0, railwayRoute=null)
+Locomotive: Locomotive(id=13, electricityGrid=[PassengerRailroadCar(id=1, netWeight=0.0, grossWeight=120.0, numOfPeople=2, shipper=null, securityInformation=null), BasicRrFreightCar(id=3, netWeight=0.0, grossWeight=100.0, source=steel, basicFreightType=REFRIGERATOR_RR_CAR, shipper=null, securityInformation=null)], electricityGridCapacity=5, maxRailroadCar=0, loadWeight=220.0, source=metal, speed=100.0, name=LOC13, homeRs=Station H1, destinationRs=Station X3, weight=220.0)
+Total weight: 220.0
+Route length: 3270.0
+
+Railroad Cars:
+PassengerRailroadCar(id=1, netWeight=0.0, grossWeight=120.0, numOfPeople=2, shipper=null, securityInformation=null)
+Trainset: Trainset(id=16, random=null, startTime=0, lock=java.util.concurrent.locks.ReentrantLock@3aa65f32[Unlocked], startStation=Station L, destinationStation=Station X, currentPosition=0.0, locomotive=Locomotive(id=16, electricityGrid=[PassengerRailroadCar(id=1, netWeight=0.0, grossWeight=120.0, numOfPeople=2, shipper=null, securityInformation=null)], electricityGridCapacity=5, maxRailroadCar=0, loadWeight=200.0, source=metal, speed=100.0, name=LOC16, homeRs=Station L, destinationRs=Station X, weight=120.0), maxRailroadCarsNumber=12, maxRailroadCarsWeight=100.0, railwayRoute=null)
+Locomotive: Locomotive(id=16, electricityGrid=[PassengerRailroadCar(id=1, netWeight=0.0, grossWeight=120.0, numOfPeople=2, shipper=null, securityInformation=null)], electricityGridCapacity=5, maxRailroadCar=0, loadWeight=200.0, source=metal, speed=100.0, name=LOC16, homeRs=Station L, destinationRs=Station X, weight=120.0)
+Total weight: 120.0
+Route length: 1880.0
+
+Railroad Cars:
+BasicRrFreightCar(id=3, netWeight=0.0, grossWeight=100.0, source=steel, basicFreightType=REFRIGERATOR_RR_CAR, shipper=null, securityInformation=null)
+Trainset: Trainset(id=23, random=null, startTime=0, lock=java.util.concurrent.locks.ReentrantLock@77b6bf09[Unlocked], startStation=Station J1, destinationStation=Station V3, currentPosition=0.0, locomotive=Locomotive(id=23, electricityGrid=[BasicRrFreightCar(id=3, netWeight=0.0, grossWeight=100.0, source=steel, basicFreightType=REFRIGERATOR_RR_CAR, shipper=null, securityInformation=null)], electricityGridCapacity=5, maxRailroadCar=0, loadWeight=200.0, source=metal, speed=100.0, name=LOC23, homeRs=Station J1, destinationRs=Station V3, weight=100.0), maxRailroadCarsNumber=20, maxRailroadCarsWeight=400.0, railwayRoute=null)
+Locomotive: Locomotive(id=23, electricityGrid=[BasicRrFreightCar(id=3, netWeight=0.0, grossWeight=100.0, source=steel, basicFreightType=REFRIGERATOR_RR_CAR, shipper=null, securityInformation=null)], electricityGridCapacity=5, maxRailroadCar=0, loadWeight=200.0, source=metal, speed=100.0, name=LOC23, homeRs=Station J1, destinationRs=Station V3, weight=100.0)
+Total weight: 100.0
+Route length: 2570.0
+
+Railroad Cars:
+PassengerRailroadCar(id=1, netWeight=0.0, grossWeight=120.0, numOfPeople=2, shipper=null, securityInformation=null)
+Trainset: Trainset(id=17, random=null, startTime=0, lock=java.util.concurrent.locks.ReentrantLock@2188036a[Unlocked], startStation=Station J1, destinationStation=Station X1, currentPosition=0.0, locomotive=Locomotive(id=17, electricityGrid=[PassengerRailroadCar(id=1, netWeight=0.0, grossWeight=120.0, numOfPeople=2, shipper=null, securityInformation=null)], electricityGridCapacity=7, maxRailroadCar=0, loadWeight=300.0, source=metal, speed=20.0, name=LOC17, homeRs=Station J1, destinationRs=Station X1, weight=120.0), maxRailroadCarsNumber=13, maxRailroadCarsWeight=800.0, railwayRoute=null)
+Locomotive: Locomotive(id=17, electricityGrid=[PassengerRailroadCar(id=1, netWeight=0.0, grossWeight=120.0, numOfPeople=2, shipper=null, securityInformation=null)], electricityGridCapacity=7, maxRailroadCar=0, loadWeight=300.0, source=metal, speed=20.0, name=LOC17, homeRs=Station J1, destinationRs=Station X1, weight=120.0)
+Total weight: 120.0
+Route length: 2570.0
+
+Railroad Cars:
+PassengerRailroadCar(id=1, netWeight=0.0, grossWeight=120.0, numOfPeople=2, shipper=null, securityInformation=null)
+Trainset: Trainset(id=6, random=null, startTime=0, lock=java.util.concurrent.locks.ReentrantLock@7fe12102[Unlocked], startStation=Station L1, destinationStation=Station B3, currentPosition=0.0, locomotive=Locomotive(id=6, electricityGrid=[PassengerRailroadCar(id=1, netWeight=0.0, grossWeight=120.0, numOfPeople=2, shipper=null, securityInformation=null)], electricityGridCapacity=5, maxRailroadCar=0, loadWeight=220.0, source=metal, speed=100.0, name=LOC6, homeRs=Station L1, destinationRs=Station B3, weight=120.0), maxRailroadCarsNumber=50, maxRailroadCarsWeight=400.0, railwayRoute=null)
+Locomotive: Locomotive(id=6, electricityGrid=[PassengerRailroadCar(id=1, netWeight=0.0, grossWeight=120.0, numOfPeople=2, shipper=null, securityInformation=null)], electricityGridCapacity=5, maxRailroadCar=0, loadWeight=220.0, source=metal, speed=100.0, name=LOC6, homeRs=Station L1, destinationRs=Station B3, weight=120.0)
+Total weight: 120.0
+Route length: 1420.0
+
+Railroad Cars:
+HeavyRrFreightCar(id=1, netWeight=0.0, grossWeight=70.5, source=metal, heavyFreightType=TOXIC_RR_CAR, shipper=null, securityInformation=null)
+HeavyRrFreightCar(id=1, netWeight=0.0, grossWeight=70.5, source=metal, heavyFreightType=TOXIC_RR_CAR, shipper=null, securityInformation=null)
+PassengerRailroadCar(id=1, netWeight=0.0, grossWeight=120.0, numOfPeople=2, shipper=null, securityInformation=null)
+Trainset: Trainset(id=22, random=null, startTime=0, lock=java.util.concurrent.locks.ReentrantLock@b3cf2ab[Unlocked], startStation=Station L1, destinationStation=Station T3, currentPosition=0.0, locomotive=Locomotive(id=22, electricityGrid=[HeavyRrFreightCar(id=1, netWeight=0.0, grossWeight=70.5, source=metal, heavyFreightType=TOXIC_RR_CAR, shipper=null, securityInformation=null), HeavyRrFreightCar(id=1, netWeight=0.0, grossWeight=70.5, source=metal, heavyFreightType=TOXIC_RR_CAR, shipper=null, securityInformation=null), PassengerRailroadCar(id=1, netWeight=0.0, grossWeight=120.0, numOfPeople=2, shipper=null, securityInformation=null)], electricityGridCapacity=30, maxRailroadCar=0, loadWeight=500.0, source=metal, speed=100.0, name=LOC22, homeRs=Station L1, destinationRs=Station T3, weight=261.0), maxRailroadCarsNumber=22, maxRailroadCarsWeight=500.0, railwayRoute=null)
+Locomotive: Locomotive(id=22, electricityGrid=[HeavyRrFreightCar(id=1, netWeight=0.0, grossWeight=70.5, source=metal, heavyFreightType=TOXIC_RR_CAR, shipper=null, securityInformation=null), HeavyRrFreightCar(id=1, netWeight=0.0, grossWeight=70.5, source=metal, heavyFreightType=TOXIC_RR_CAR, shipper=null, securityInformation=null), PassengerRailroadCar(id=1, netWeight=0.0, grossWeight=120.0, numOfPeople=2, shipper=null, securityInformation=null)], electricityGridCapacity=30, maxRailroadCar=0, loadWeight=500.0, source=metal, speed=100.0, name=LOC22, homeRs=Station L1, destinationRs=Station T3, weight=261.0)
+Total weight: 261.0
+Route length: 1420.0
+
+Railroad Cars:
+PassengerRailroadCar(id=1, netWeight=0.0, grossWeight=120.0, numOfPeople=2, shipper=null, securityInformation=null)
+Trainset: Trainset(id=12, random=null, startTime=0, lock=java.util.concurrent.locks.ReentrantLock@33dfc680[Unlocked], startStation=Station M1, destinationStation=Station J2, currentPosition=0.0, locomotive=Locomotive(id=12, electricityGrid=[PassengerRailroadCar(id=1, netWeight=0.0, grossWeight=120.0, numOfPeople=2, shipper=null, securityInformation=null)], electricityGridCapacity=20, maxRailroadCar=0, loadWeight=500.0, source=steel, speed=200.0, name=LOC12, homeRs=Station M1, destinationRs=Station J2, weight=120.0), maxRailroadCarsNumber=26, maxRailroadCarsWeight=1003.0, railwayRoute=null)
+Locomotive: Locomotive(id=12, electricityGrid=[PassengerRailroadCar(id=1, netWeight=0.0, grossWeight=120.0, numOfPeople=2, shipper=null, securityInformation=null)], electricityGridCapacity=20, maxRailroadCar=0, loadWeight=500.0, source=steel, speed=200.0, name=LOC12, homeRs=Station M1, destinationRs=Station J2, weight=120.0)
+Total weight: 120.0
+Route length: 1300.0
+
+Railroad Cars:
+BasicRrFreightCar(id=1, netWeight=0.0, grossWeight=50.0, source=metal, basicFreightType=LIQUID_RR_CAR, shipper=null, securityInformation=null)
+HeavyRrFreightCar(id=1, netWeight=0.0, grossWeight=70.5, source=metal, heavyFreightType=TOXIC_RR_CAR, shipper=null, securityInformation=null)
+Trainset: Trainset(id=4, random=null, startTime=0, lock=java.util.concurrent.locks.ReentrantLock@6a4e33f5[Unlocked], startStation=Station M3, destinationStation=Station B1, currentPosition=0.0, locomotive=Locomotive(id=4, electricityGrid=[BasicRrFreightCar(id=1, netWeight=0.0, grossWeight=50.0, source=metal, basicFreightType=LIQUID_RR_CAR, shipper=null, securityInformation=null), HeavyRrFreightCar(id=1, netWeight=0.0, grossWeight=70.5, source=metal, heavyFreightType=TOXIC_RR_CAR, shipper=null, securityInformation=null)], electricityGridCapacity=10, maxRailroadCar=0, loadWeight=400.0, source=metal, speed=30.0, name=LOC4, homeRs=Station M3, destinationRs=Station B1, weight=120.5), maxRailroadCarsNumber=40, maxRailroadCarsWeight=500.0, railwayRoute=null)
+Locomotive: Locomotive(id=4, electricityGrid=[BasicRrFreightCar(id=1, netWeight=0.0, grossWeight=50.0, source=metal, basicFreightType=LIQUID_RR_CAR, shipper=null, securityInformation=null), HeavyRrFreightCar(id=1, netWeight=0.0, grossWeight=70.5, source=metal, heavyFreightType=TOXIC_RR_CAR, shipper=null, securityInformation=null)], electricityGridCapacity=10, maxRailroadCar=0, loadWeight=400.0, source=metal, speed=30.0, name=LOC4, homeRs=Station M3, destinationRs=Station B1, weight=120.5)
+Total weight: 120.5
+Route length: 1300.0
+
+Railroad Cars:
+Trainset: Trainset(id=15, random=null, startTime=0, lock=java.util.concurrent.locks.ReentrantLock@28c29742[Unlocked], startStation=Station X, destinationStation=Station Y, currentPosition=0.0, locomotive=Locomotive(id=15, electricityGrid=[], electricityGridCapacity=30, maxRailroadCar=0, loadWeight=500.0, source=metal, speed=100.0, name=LOC15, homeRs=Station X, destinationRs=Station Y, weight=0.0), maxRailroadCarsNumber=22, maxRailroadCarsWeight=200.0, railwayRoute=null)
+Locomotive: Locomotive(id=15, electricityGrid=[], electricityGridCapacity=30, maxRailroadCar=0, loadWeight=500.0, source=metal, speed=100.0, name=LOC15, homeRs=Station X, destinationRs=Station Y, weight=0.0)
+Total weight: 0.0
+Route length: 850.0
+
+Railroad Cars:
+MailCar(id=1, netWeight=0.0, grossWeight=20.0, source=metal, shipper=null, securityInformation=null)
+BasicRrFreightCar(id=1, netWeight=0.0, grossWeight=50.0, source=metal, basicFreightType=LIQUID_RR_CAR, shipper=null, securityInformation=null)
+PassengerRailroadCar(id=4, netWeight=0.0, grossWeight=160.0, numOfPeople=2, shipper=null, securityInformation=null)
+Trainset: Trainset(id=24, random=null, startTime=0, lock=java.util.concurrent.locks.ReentrantLock@481e5d91[Unlocked], startStation=Station K1, destinationStation=Station M1, currentPosition=0.0, locomotive=Locomotive(id=24, electricityGrid=[BasicRrFreightCar(id=1, netWeight=0.0, grossWeight=50.0, source=metal, basicFreightType=LIQUID_RR_CAR, shipper=null, securityInformation=null), MailCar(id=1, netWeight=0.0, grossWeight=20.0, source=metal, shipper=null, securityInformation=null), PassengerRailroadCar(id=4, netWeight=0.0, grossWeight=160.0, numOfPeople=2, shipper=null, securityInformation=null)], electricityGridCapacity=7, maxRailroadCar=0, loadWeight=300.0, source=metal, speed=20.0, name=LOC24, homeRs=Station K1, destinationRs=Station M1, weight=230.0), maxRailroadCarsNumber=10, maxRailroadCarsWeight=300.0, railwayRoute=null)
+Locomotive: Locomotive(id=24, electricityGrid=[BasicRrFreightCar(id=1, netWeight=0.0, grossWeight=50.0, source=metal, basicFreightType=LIQUID_RR_CAR, shipper=null, securityInformation=null), MailCar(id=1, netWeight=0.0, grossWeight=20.0, source=metal, shipper=null, securityInformation=null), PassengerRailroadCar(id=4, netWeight=0.0, grossWeight=160.0, numOfPeople=2, shipper=null, securityInformation=null)], electricityGridCapacity=7, maxRailroadCar=0, loadWeight=300.0, source=metal, speed=20.0, name=LOC24, homeRs=Station K1, destinationRs=Station M1, weight=230.0)
+Total weight: 230.0
+Route length: 720.0
+

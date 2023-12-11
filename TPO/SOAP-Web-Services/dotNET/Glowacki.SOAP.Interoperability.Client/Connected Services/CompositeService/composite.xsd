@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://glowacki.eu/composite" elementFormDefault="qualified" targetNamespace="http://glowacki.eu/composite" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="add" type="tns:add" />
+  <xs:element name="addResponse" type="tns:addResponse" />
+  <xs:complexType name="add">
+    <xs:sequence>
+      <xs:element minOccurs="0" form="unqualified" name="arg0" type="tns:AddRequestMessage" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="AddRequestMessage" final="extension restriction">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="constituent1" type="xs:integer" />
+      <xs:element minOccurs="0" name="constituent2" type="xs:integer" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="addResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" form="unqualified" name="return" type="tns:AddResponseMessage" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="AddResponseMessage" final="extension restriction">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="result" type="xs:integer" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

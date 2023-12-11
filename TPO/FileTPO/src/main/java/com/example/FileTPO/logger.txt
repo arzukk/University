@@ -1,0 +1,471 @@
+13-Apr-2023 10:48:15.360 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.7
+13-Apr-2023 10:48:15.362 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 27 2023 20:25:27 UTC
+13-Apr-2023 10:48:15.362 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.7.0
+13-Apr-2023 10:48:15.362 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+13-Apr-2023 10:48:15.362 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            12.4
+13-Apr-2023 10:48:15.363 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+13-Apr-2023 10:48:15.363 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/arzukilic/Library/Java/JavaVirtualMachines/openjdk-17.0.1/Contents/Home
+13-Apr-2023 10:48:15.363 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.1+12-39
+13-Apr-2023 10:48:15.363 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+13-Apr-2023 10:48:15.363 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/arzukilic/Library/Caches/JetBrains/IntelliJIdea2021.2/tomcat/4101f893-f3c0-4923-bc51-89808bc48cdd
+13-Apr-2023 10:48:15.363 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/arzukilic/Desktop/Tomcat/apache-tomcat-10.1.7
+13-Apr-2023 10:48:15.369 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/arzukilic/Library/Caches/JetBrains/IntelliJIdea2021.2/tomcat/4101f893-f3c0-4923-bc51-89808bc48cdd/conf/logging.properties
+13-Apr-2023 10:48:15.369 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Apr-2023 10:48:15.369 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote=
+13-Apr-2023 10:48:15.369 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.port=1099
+13-Apr-2023 10:48:15.369 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.ssl=false
+13-Apr-2023 10:48:15.369 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.password.file=/Users/arzukilic/Library/Caches/JetBrains/IntelliJIdea2021.2/tomcat/4101f893-f3c0-4923-bc51-89808bc48cdd/jmxremote.password
+13-Apr-2023 10:48:15.370 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.access.file=/Users/arzukilic/Library/Caches/JetBrains/IntelliJIdea2021.2/tomcat/4101f893-f3c0-4923-bc51-89808bc48cdd/jmxremote.access
+13-Apr-2023 10:48:15.370 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.rmi.server.hostname=127.0.0.1
+13-Apr-2023 10:48:15.371 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-Apr-2023 10:48:15.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-Apr-2023 10:48:15.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+13-Apr-2023 10:48:15.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+13-Apr-2023 10:48:15.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+13-Apr-2023 10:48:15.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+13-Apr-2023 10:48:15.373 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+13-Apr-2023 10:48:15.373 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+13-Apr-2023 10:48:15.373 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/arzukilic/Library/Caches/JetBrains/IntelliJIdea2021.2/tomcat/4101f893-f3c0-4923-bc51-89808bc48cdd
+13-Apr-2023 10:48:15.373 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/arzukilic/Desktop/Tomcat/apache-tomcat-10.1.7
+13-Apr-2023 10:48:15.373 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/arzukilic/Desktop/Tomcat/apache-tomcat-10.1.7/temp
+13-Apr-2023 10:48:15.376 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/arzukilic/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+13-Apr-2023 10:48:15.863 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+13-Apr-2023 10:48:15.908 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [776] milliseconds
+13-Apr-2023 10:48:15.954 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Apr-2023 10:48:15.954 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.7]
+13-Apr-2023 10:48:15.976 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+13-Apr-2023 10:48:15.992 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [83] milliseconds
+Connected to server
+13-Apr-2023 10:48:17.106 INFO [RMI TCP Connection(2)-127.0.0.1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-Apr-2023 10:48:26.000 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/arzukilic/Desktop/Tomcat/apache-tomcat-10.1.7/webapps/manager]
+13-Apr-2023 10:48:26.181 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/arzukilic/Desktop/Tomcat/apache-tomcat-10.1.7/webapps/manager] has finished in [179] ms
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+server
+srvrkcdnxklsdjncjljkndsljcbnhljdhskjchnvidsehnwcilehoihsdew
+null
+null
+arzu
+arzuk
+azad
+dog
+Linus
+lina
+Wth
+asl
+Lucy
+J!nyMdfp@7x
+hello
+hello
+bye
+byeee
+arzl
+azll
+kas
+kass
+kal
+kall
+kala
+kal
+mama
+mama
+kass
+kass
+nece
+kall
+tomas
+werner
+man
+mana
+kazma
+kurek
+selam
+asas
+mam
+mama
+kaym
+kaymak
+kayra
+kayr
+ivan
+mann
+ozlem
+ozle
+File hare created successfully by ozlem Thu Apr 13 10:52:59 CEST 2023 Ffile(name=arzu.txt, creator=arzukkkkkk lalalalalla, date=Mon Apr 10 14:17:55 CEST 2023) txtFile
+Ffile(name=kopek.txt, creator=azad, date=Tue Apr 11 14:53:53 CEST 2023) txtFile
+Ffile(name=malkk.txt, creator=nece, date=Tue Apr 11 18:55:57 CEST 2023) txtFile
+Ffile(name=fan.txt, creator=azad, date=Tue Apr 11 13:41:40 CEST 2023) txtFile
+Ffile(name=passwords.txt, creator=server, date=Thu Mar 30 20:41:32 CEST 2023) txtFile
+Ffile(name=hare.txt, creator=ozlem, date=Thu Apr 13 10:52:59 CEST 2023) txtFile
+Ffile(name=kazma.txt, creator=kazma, date=Tue Apr 11 19:16:19 CEST 2023) txtFile
+Ffile(name=kalll.txt, creator=man, date=Tue Apr 11 19:13:38 CEST 2023) txtFile
+azad owner
+ozlem username
+Ffile(name=arzu.txt, creator=arzukkkkkk lalalalalla, date=Mon Apr 10 14:17:55 CEST 2023) txtFile
+Ffile(name=kopek.txt, creator=azad, date=Tue Apr 11 14:53:53 CEST 2023) txtFile
+Ffile(name=malkk.txt, creator=nece, date=Tue Apr 11 18:55:57 CEST 2023) txtFile
+Ffile(name=fan.txt, creator=azad, date=Tue Apr 11 13:41:40 CEST 2023) txtFile
+Ffile(name=passwords.txt, creator=server, date=Thu Mar 30 20:41:32 CEST 2023) txtFile
+Ffile(name=hare.txt, creator=ozlem, date=Thu Apr 13 10:52:59 CEST 2023) txtFile
+Ffile(name=kazma.txt, creator=kazma, date=Tue Apr 11 19:16:19 CEST 2023) txtFile
+Ffile(name=kalll.txt, creator=man, date=Tue Apr 11 19:13:38 CEST 2023) txtFile
+ozlem owner
+ozlem username
+Ffile(name=arzu.txt, creator=arzukkkkkk lalalalalla, date=Mon Apr 10 14:17:55 CEST 2023) txtFile
+Ffile(name=kopek.txt, creator=azad, date=Tue Apr 11 14:53:53 CEST 2023) txtFile
+Ffile(name=malkk.txt, creator=nece, date=Tue Apr 11 18:55:57 CEST 2023) txtFile
+Ffile(name=fan.txt, creator=azad, date=Tue Apr 11 13:41:40 CEST 2023) txtFile
+Ffile(name=passwords.txt, creator=server, date=Thu Mar 30 20:41:32 CEST 2023) txtFile
+Ffile(name=hare.txt, creator=ozlem, date=Thu Apr 13 10:52:59 CEST 2023) txtFile
+Ffile(name=kazma.txt, creator=kazma, date=Tue Apr 11 19:16:19 CEST 2023) txtFile
+Ffile(name=kalll.txt, creator=man, date=Tue Apr 11 19:13:38 CEST 2023) txtFile
+malkk.txt IS BEING READ
+Ffile(name=arzu.txt, creator=arzukkkkkk lalalalalla, date=Mon Apr 10 14:17:55 CEST 2023) txtFile
+Ffile(name=kopek.txt, creator=azad, date=Tue Apr 11 14:53:53 CEST 2023) txtFile
+Ffile(name=malkk.txt, creator=nece, date=Tue Apr 11 18:55:57 CEST 2023) txtFile
+Ffile(name=fan.txt, creator=azad, date=Tue Apr 11 13:41:40 CEST 2023) txtFile
+Ffile(name=passwords.txt, creator=server, date=Thu Mar 30 20:41:32 CEST 2023) txtFile
+Ffile(name=hare.txt, creator=ozlem, date=Thu Apr 13 10:52:59 CEST 2023) txtFile
+Ffile(name=kazma.txt, creator=kazma, date=Tue Apr 11 19:16:19 CEST 2023) txtFile
+Ffile(name=kalll.txt, creator=man, date=Tue Apr 11 19:13:38 CEST 2023) txtFile
+hare.txt IS BEING READ
+server
+srvrkcdnxklsdjncjljkndsljcbnhljdhskjchnvidsehnwcilehoihsdew
+null
+null
+arzu
+arzuk
+azad
+dog
+Linus
+lina
+Wth
+asl
+Lucy
+J!nyMdfp@7x
+hello
+hello
+bye
+byeee
+arzl
+azll
+kas
+kass
+kal
+kall
+kala
+kal
+mama
+mama
+kass
+kass
+nece
+kall
+tomas
+werner
+man
+mana
+kazma
+kurek
+selam
+asas
+mam
+mama
+kaym
+kaymak
+kayra
+kayr
+ivan
+mann
+ozlem
+ozle
+Ffile(name=arzu.txt, creator=arzukkkkkk lalalalalla, date=Mon Apr 10 14:17:55 CEST 2023) txtFile
+Ffile(name=kopek.txt, creator=azad, date=Tue Apr 11 14:53:53 CEST 2023) txtFile
+Ffile(name=malkk.txt, creator=nece, date=Tue Apr 11 18:55:57 CEST 2023) txtFile
+Ffile(name=fan.txt, creator=azad, date=Tue Apr 11 13:41:40 CEST 2023) txtFile
+Ffile(name=passwords.txt, creator=server, date=Thu Mar 30 20:41:32 CEST 2023) txtFile
+Ffile(name=kazma.txt, creator=kazma, date=Tue Apr 11 19:16:19 CEST 2023) txtFile
+Ffile(name=kalll.txt, creator=man, date=Tue Apr 11 19:13:38 CEST 2023) txtFile
+azad owner
+arzu username
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+server
+srvrkcdnxklsdjncjljkndsljcbnhljdhskjchnvidsehnwcilehoihsdew
+null
+null
+arzu
+arzuk
+azad
+dog
+Linus
+lina
+Wth
+asl
+Lucy
+J!nyMdfp@7x
+hello
+hello
+bye
+byeee
+arzl
+azll
+kas
+kass
+kal
+kall
+kala
+kal
+mama
+mama
+kass
+kass
+nece
+kall
+tomas
+werner
+man
+mana
+kazma
+kurek
+selam
+asas
+mam
+mama
+kaym
+kaymak
+kayra
+kayr
+ivan
+mann
+ozlem
+ozle
+michal
+tomas
+server
+srvrkcdnxklsdjncjljkndsljcbnhljdhskjchnvidsehnwcilehoihsdew
+null
+null
+arzu
+arzuk
+azad
+dog
+Linus
+lina
+Wth
+asl
+Lucy
+J!nyMdfp@7x
+hello
+hello
+bye
+byeee
+arzl
+azll
+kas
+kass
+kal
+kall
+kala
+kal
+mama
+mama
+kass
+kass
+nece
+kall
+tomas
+werner
+man
+mana
+kazma
+kurek
+selam
+asas
+mam
+mama
+kaym
+kaymak
+kayra
+kayr
+ivan
+mann
+ozlem
+ozle
+michal
+tomas
+File tpo created successfully by michal Thu Apr 13 11:20:27 CEST 2023 Ffile(name=arzu.txt, creator=arzukkkkkk lalalalalla, date=Mon Apr 10 14:17:55 CEST 2023) txtFile
+Ffile(name=kopek.txt, creator=azad, date=Tue Apr 11 14:53:53 CEST 2023) txtFile
+Ffile(name=malkk.txt, creator=nece, date=Tue Apr 11 18:55:57 CEST 2023) txtFile
+Ffile(name=tpo.txt, creator=michal, date=Thu Apr 13 11:20:27 CEST 2023) txtFile
+Ffile(name=fan.txt, creator=azad, date=Tue Apr 11 13:41:40 CEST 2023) txtFile
+Ffile(name=passwords.txt, creator=server, date=Thu Mar 30 20:41:32 CEST 2023) txtFile
+Ffile(name=kazma.txt, creator=kazma, date=Tue Apr 11 19:16:19 CEST 2023) txtFile
+Ffile(name=kalll.txt, creator=man, date=Tue Apr 11 19:13:38 CEST 2023) txtFile
+kopek.txt IS BEING READ
+Ffile(name=arzu.txt, creator=arzukkkkkk lalalalalla, date=Mon Apr 10 14:17:55 CEST 2023) txtFile
+Ffile(name=kopek.txt, creator=azad, date=Tue Apr 11 14:53:53 CEST 2023) txtFile
+Ffile(name=malkk.txt, creator=nece, date=Tue Apr 11 18:55:57 CEST 2023) txtFile
+Ffile(name=tpo.txt, creator=michal, date=Thu Apr 13 11:20:27 CEST 2023) txtFile
+Ffile(name=fan.txt, creator=azad, date=Tue Apr 11 13:41:40 CEST 2023) txtFile
+Ffile(name=passwords.txt, creator=server, date=Thu Mar 30 20:41:32 CEST 2023) txtFile
+Ffile(name=kazma.txt, creator=kazma, date=Tue Apr 11 19:16:19 CEST 2023) txtFile
+Ffile(name=kalll.txt, creator=man, date=Tue Apr 11 19:13:38 CEST 2023) txtFile
+Ffile(name=arzu.txt, creator=arzukkkkkk lalalalalla, date=Mon Apr 10 14:17:55 CEST 2023) txtFile
+Ffile(name=kopek.txt, creator=azad, date=Tue Apr 11 14:53:53 CEST 2023) txtFile
+Ffile(name=malkk.txt, creator=nece, date=Tue Apr 11 18:55:57 CEST 2023) txtFile
+Ffile(name=tpo.txt, creator=michal, date=Thu Apr 13 11:20:27 CEST 2023) txtFile
+Ffile(name=fan.txt, creator=azad, date=Tue Apr 11 13:41:40 CEST 2023) txtFile
+Ffile(name=passwords.txt, creator=server, date=Thu Mar 30 20:41:32 CEST 2023) txtFile
+Ffile(name=kazma.txt, creator=kazma, date=Tue Apr 11 19:16:19 CEST 2023) txtFile
+Ffile(name=kalll.txt, creator=man, date=Tue Apr 11 19:13:38 CEST 2023) txtFile
+azad owner
+michal username
+Ffile(name=arzu.txt, creator=arzukkkkkk lalalalalla, date=Mon Apr 10 14:17:55 CEST 2023) txtFile
+Ffile(name=kopek.txt, creator=azad, date=Tue Apr 11 14:53:53 CEST 2023) txtFile
+Ffile(name=malkk.txt, creator=nece, date=Tue Apr 11 18:55:57 CEST 2023) txtFile
+Ffile(name=tpo.txt, creator=michal, date=Thu Apr 13 11:20:27 CEST 2023) txtFile
+Ffile(name=fan.txt, creator=azad, date=Tue Apr 11 13:41:40 CEST 2023) txtFile
+Ffile(name=passwords.txt, creator=server, date=Thu Mar 30 20:41:32 CEST 2023) txtFile
+Ffile(name=kazma.txt, creator=kazma, date=Tue Apr 11 19:16:19 CEST 2023) txtFile
+Ffile(name=kalll.txt, creator=man, date=Tue Apr 11 19:13:38 CEST 2023) txtFile
+michal owner
+michal username
+Ffile(name=arzu.txt, creator=arzukkkkkk lalalalalla, date=Mon Apr 10 14:17:55 CEST 2023) txtFile
+Ffile(name=kopek.txt, creator=azad, date=Tue Apr 11 14:53:53 CEST 2023) txtFile
+Ffile(name=malkk.txt, creator=nece, date=Tue Apr 11 18:55:57 CEST 2023) txtFile
+Ffile(name=tpo.txt, creator=michal, date=Thu Apr 13 11:20:27 CEST 2023) txtFile
+Ffile(name=fan.txt, creator=azad, date=Tue Apr 11 13:41:40 CEST 2023) txtFile
+Ffile(name=passwords.txt, creator=server, date=Thu Mar 30 20:41:32 CEST 2023) txtFile
+Ffile(name=kazma.txt, creator=kazma, date=Tue Apr 11 19:16:19 CEST 2023) txtFile
+Ffile(name=kalll.txt, creator=man, date=Tue Apr 11 19:13:38 CEST 2023) txtFile
+tpo.txt IS BEING READ
+server
+srvrkcdnxklsdjncjljkndsljcbnhljdhskjchnvidsehnwcilehoihsdew
+null
+null
+arzu
+arzuk
+azad
+dog
+Linus
+lina
+Wth
+asl
+Lucy
+J!nyMdfp@7x
+hello
+hello
+bye
+byeee
+arzl
+azll
+kas
+kass
+kal
+kall
+kala
+kal
+mama
+mama
+kass
+kass
+nece
+kall
+tomas
+werner
+man
+mana
+kazma
+kurek
+selam
+asas
+mam
+mama
+kaym
+kaymak
+kayra
+kayr
+ivan
+mann
+ozlem
+ozle
+michal
+tomas
+Ffile(name=arzu.txt, creator=arzukkkkkk lalalalalla, date=Mon Apr 10 14:17:55 CEST 2023) txtFile
+Ffile(name=kopek.txt, creator=azad, date=Tue Apr 11 14:53:53 CEST 2023) txtFile
+Ffile(name=malkk.txt, creator=nece, date=Tue Apr 11 18:55:57 CEST 2023) txtFile
+Ffile(name=fan.txt, creator=azad, date=Tue Apr 11 13:41:40 CEST 2023) txtFile
+Ffile(name=passwords.txt, creator=server, date=Thu Mar 30 20:41:32 CEST 2023) txtFile
+Ffile(name=kazma.txt, creator=kazma, date=Tue Apr 11 19:16:19 CEST 2023) txtFile
+Ffile(name=kalll.txt, creator=man, date=Tue Apr 11 19:13:38 CEST 2023) txtFile
+arzu.txt IS BEING READ
+Ffile(name=arzu.txt, creator=arzukkkkkk lalalalalla, date=Mon Apr 10 14:17:55 CEST 2023) txtFile
+Ffile(name=kopek.txt, creator=azad, date=Tue Apr 11 14:53:53 CEST 2023) txtFile
+Ffile(name=malkk.txt, creator=nece, date=Tue Apr 11 18:55:57 CEST 2023) txtFile
+Ffile(name=fan.txt, creator=azad, date=Tue Apr 11 13:41:40 CEST 2023) txtFile
+Ffile(name=passwords.txt, creator=server, date=Thu Mar 30 20:41:32 CEST 2023) txtFile
+Ffile(name=kazma.txt, creator=kazma, date=Tue Apr 11 19:16:19 CEST 2023) txtFile
+Ffile(name=kalll.txt, creator=man, date=Tue Apr 11 19:13:38 CEST 2023) txtFile
+azad owner
+arzu username
+Ffile(name=arzu.txt, creator=arzukkkkkk lalalalalla, date=Mon Apr 10 14:17:55 CEST 2023) txtFile
+Ffile(name=kopek.txt, creator=azad, date=Tue Apr 11 14:53:53 CEST 2023) txtFile
+Ffile(name=malkk.txt, creator=nece, date=Tue Apr 11 18:55:57 CEST 2023) txtFile
+Ffile(name=fan.txt, creator=azad, date=Tue Apr 11 13:41:40 CEST 2023) txtFile
+Ffile(name=passwords.txt, creator=server, date=Thu Mar 30 20:41:32 CEST 2023) txtFile
+Ffile(name=kazma.txt, creator=kazma, date=Tue Apr 11 19:16:19 CEST 2023) txtFile
+Ffile(name=kalll.txt, creator=man, date=Tue Apr 11 19:13:38 CEST 2023) txtFile
+13-Apr-2023 11:27:55.401 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+13-Apr-2023 11:27:55.411 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+13-Apr-2023 11:27:55.421 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+13-Apr-2023 11:27:55.468 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+13-Apr-2023 11:27:55.479 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+Disconnected from server

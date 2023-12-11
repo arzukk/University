@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteRepositoriesConfiguration">
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
+      <option name="url" value="https://repo.maven.apache.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="repo1.maven.org" />
+      <option name="name" value="repo1.maven.org" />
+      <option name="url" value="https://repo1.maven.org/maven2/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="eu.glowacki" />
+      <option name="name" value="eu.glowacki" />
+      <option name="url" value="file:A:\git\tutorials\TPO\Lectures\src\SOAP-Web-Services\Java\jax-ws-service-implementation" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Maven Central repository" />
+      <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss.community" />
+      <option name="name" value="JBoss Community repository" />
+      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="repo1.maven.org" />
+      <option name="name" value="repo1.maven.org" />
+      <option name="url" value="http://repo1.maven.org/maven2/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="eu.glowacki" />
+      <option name="name" value="eu.glowacki" />
+      <option name="url" value="file:A:\git\tutorials\TPO\Lectures\src\SOAP-Web-Services\Java\jax-ws-service-api" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="eu.glowacki" />
+      <option name="name" value="eu.glowacki" />
+      <option name="url" value="file:A:\git\tutorials\TPO\Lectures\src\SOAP-Web-Services\Java\jax-ws-client/../" />
+    </remote-repository>
+  </component>
+</project>

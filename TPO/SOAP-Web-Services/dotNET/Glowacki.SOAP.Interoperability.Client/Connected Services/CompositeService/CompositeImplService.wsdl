@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://glowacki.eu/composite" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" name="CompositeImplService" targetNamespace="http://glowacki.eu/composite" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="http://localhost:8080/composite?xsd=1" namespace="http://glowacki.eu/composite" />
+    </xsd:schema>
+  </types>
+  <message name="add">
+    <part name="parameters" element="tns:add" />
+  </message>
+  <message name="addResponse">
+    <part name="parameters" element="tns:addResponse" />
+  </message>
+  <portType name="IComposite">
+    <operation name="add">
+      <input wsam:Action="http://glowacki.eu/composite/IComposite/addRequest" message="tns:add" />
+      <output wsam:Action="http://glowacki.eu/composite/IComposite/addResponse" message="tns:addResponse" />
+    </operation>
+  </portType>
+  <binding name="ICompositePortBinding" type="tns:IComposite">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="add">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="CompositeImplService">
+    <port name="ICompositePort" binding="tns:ICompositePortBinding">
+      <soap:address location="http://localhost:8080/composite" />
+    </port>
+  </service>
+</definitions>
