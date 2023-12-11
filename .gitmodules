@@ -1,3 +1,6 @@
 [submodule "PPYProject"]
 	path = PPYProject
 	url = https://github.com/arzukk/PPYProject.git
+[submodule "NavigationProject"]
+	path = NavigationProject
+	url = https://github.com/skogarr/Archive-Solvd-Navigation-Project.git
